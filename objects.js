@@ -11,7 +11,7 @@ return playlist
 
 function removeFromPlaylist(playlist, artistName){
 playlist = delete playlist.artistName
-playlist = { lone: 'cahka'}
+playlist = delete playlist.lone
 return playlist
 }
 removeFromPlaylist(playlist, 'Slowdive')
