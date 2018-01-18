@@ -1,4 +1,4 @@
- var playlist = { lone : 'chacka' }
+ playlist = { lone : 'chacka' }
 
 function updatePlaylist(playlist, artistName, songTitle){
   playlist['Slowdive']= 'Alison'
