@@ -10,6 +10,7 @@ return playlist
 //updatePlaylist(playlist, 'Phil Ochs', "Here's to the State of Mississippi")
 
 function removeFromPlaylist(playlist, artistName){
-return playlist = delete playlist.artistName
+playlist = delete playlist.artistName
+return playlist
 }
 removeFromPlaylist(playlist, 'Slowdive')
