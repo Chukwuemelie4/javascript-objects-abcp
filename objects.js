@@ -7,13 +7,13 @@ function updatePlaylist(playlist, artistName, songTitle){
 playlist[artistName]= songTitle
 return playlist
 }
-//updatePlaylist(playlist, 'Phil Ochs', "Here's to the State of Mississippi")
+updatePlaylist(playlist, 'Phil Ochs', "Here's to the State of Mississippi")
 
 function removeFromPlaylist(playlist, artistName){
-delete playlist.artistName;
+delete object[artistName]
 //playlist = delete playlist.lone
 //playlist = delete playlist.'phil Ochs'
 //playlist = delete playlist.'My Bloody Valentine'
 return playlist
 }
-//removeFromPlaylist(playlist, 'Slowdive')
+removeFromPlaylist(playlist, 'Slowdive')
