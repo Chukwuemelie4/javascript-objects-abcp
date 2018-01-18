@@ -16,4 +16,4 @@ playlist = delete playlist.lone
 //playlist = delete playlist.'My Bloody Valentine'
 return playlist
 }
-removeFromPlaylist(playlist, 'Slowdive')
+//removeFromPlaylist(playlist, 'Slowdive')
