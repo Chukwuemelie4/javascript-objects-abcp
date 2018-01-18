@@ -12,6 +12,8 @@ return playlist
 function removeFromPlaylist(playlist, artistName){
 playlist = delete playlist.artistName
 playlist = delete playlist.lone
+playlist = delete playlist.['phil Ochs']
+playlist = delete playlist.['My Bloody Valentine']
 return playlist
 }
 removeFromPlaylist(playlist, 'Slowdive')
